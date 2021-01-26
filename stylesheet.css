@@ -12,30 +12,30 @@ body{
 
 
 .left{
-      /* border:2px solid red;  */
+
         display: inline-block;
         position: absolute;
         top: 16px;
-        left: 29px;
         color:white;
         text-align: center;
         font-size: 16px;
+        width:20%;
+        height:90px;
 }
 
 .mid{
-  /*  border:2px solid yellow;*/
     display: block;
     width:45%;
     margin:20px auto;
 }
 
 .right{
-  /*  border:2px solid green;*/
+    text-align: center;
+    width:20%;
     display: inline-block;
     position: absolute;
     right:10px;
     top:20px;
-    padding:10px;
 }
 
 .navbar{
@@ -60,9 +60,10 @@ body{
     color:grey;
 }
 
-.left img{
-    width:150px;
-    height:50px;
+     .left img{
+    width:70%;
+    margin: auto;
+    height:100px;
 }
 
 
@@ -70,6 +71,7 @@ body{
     padding:13px;
     background-color: black;
     color:white;
+    margin:5px;
     font-size: 15px;
     border: 2px solid grey;
     border-radius: 5px;
@@ -87,31 +89,38 @@ body{
 .container{
     border: 2px solid white;
     padding: 2px 2px;
-    width:28%;
+    width:20%;
     border-radius:10px;
     margin-left:29px;
-    margin-top: 75px;
+    margin-top: 100px;
     COLOR:WHITE;
     text-align: center;
+    height:50%x;
+}
+
+.logo-name{
+    position:absolute;
+    text-align:center;
+    width:100%;
 }
 
 .form-group input {
         text-align: center;
         display: block;
-        width:357px;
-        padding:6px;
-        margin: 20px auto;
+        width:90%;
+        margin: 10px auto;
         border:2px solid black;
         border-radius: 8px;
         font-family: 'Baloo Bhaina 2', cursive;
 }
 
 #su{
-    width:200px;
+    width:25%;
     height:50px;
     padding:0px;
-    margin-bottom: 20px;
+    margin: 20px auto;
 }
+
 
 
 
